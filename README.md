@@ -1,52 +1,16 @@
-🛡️ Chakravyuha – Voice-First Multilingual AI Legal Assistant
+# React + Vite
 
-🚀 A production-ready, voice-first, multilingual AI legal assistant for India that provides legal awareness, defense strategies, and automated action workflows using RAG + Agentic AI.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🌟 Overview
+Currently, two official plugins are available:
 
-Chakravyuha is designed to bridge the legal accessibility gap in India by enabling users to:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-🎤 Speak in their native language or dialect
-⚖️ Get accurate legal sections (IPC / BNS / CrPC / State Laws)
-🧠 Receive simple explanations + legal rights
-🧾 Follow step-by-step legal actions
-🤖 Automate complaint filing via agent system
-📊 Track case progress
-🎯 Key Features
-🎤 Voice-First Interaction
-Speech-to-text using OpenAI Whisper
-Text-to-speech using ElevenLabs / Coqui
-Supports multilingual and dialect input
-📚 RAG-Based Legal Intelligence
-Uses Retrieval-Augmented Generation
-Legal corpus includes:
-IPC / BNS / CrPC
-Motor Vehicles Act
-State-specific laws
-FAISS vector database for fast retrieval
-⚖️ Legal Assistance Engine
-Maps user query → relevant law sections
-Generates:
-Explanation in simple language
-Legal rights
-Defense strategies
-🧾 Step-by-Step Guidance
-Actionable instructions like:
-What to say
-Where to go
-What to submit
-🤖 Agent Automation
-Simulated government portal automation using Playwright
-Auto-fills complaint forms
-Handles multi-step workflows
-📊 Case Tracking System
-PostgreSQL database
-Tracks:
-Case ID
-Status
-Updates
-Timeline
-🚨 Urgency Detection
-Detects critical keywords:
-"arrest", "police", "bail"
-Triggers alerts + escalation guidance
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
